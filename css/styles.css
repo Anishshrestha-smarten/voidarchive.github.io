@@ -1,0 +1,129 @@
+/* #6E3CBC
+#7267CB
+#98BAE7
+#B8E4F0 */
+
+body {
+  margin: 0;
+  text-align: center;
+  color: #40514e;
+  font-family: "Merriweather Sans", sans-serif;
+}
+
+h1 {
+  margin: 50px auto 0;
+  font-family: "Sacramento", cursive;
+  font-size: 5.62rem;
+  color: #7267cb;
+  line-height: 2;
+}
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+  color: #7267cb;
+  padding-bottom: 10px;
+}
+
+h3 {
+  font-family: "Montserrat", sans-serif;
+  color: #7267cb;
+}
+a {
+  color: #7267CB;
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  margin: 10px 20px;
+
+}
+a:hover{
+    color: #6E3CBC;
+}
+p {
+  line-height: 2;
+}
+.top {
+  background-color: #b8e4f0;
+  position: relative;
+  padding-top: 100px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.computer-pic {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+.chillies-pic {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.intro {
+  width: 35%;
+  margin: 50px auto;
+}
+
+hr {
+  border-style: dotted none none;
+  border-color: #eaf6f6;
+  border-width: 10px;
+  width: 5%;
+}
+
+.contact-me {
+  margin: 100px auto;
+}
+
+.btn {
+  background: #98bae7;
+  background-image: -webkit-linear-gradient(top, #98bae7, #6e3cbc);
+  background-image: -moz-linear-gradient(top, #98bae7, #6e3cbc);
+  background-image: -ms-linear-gradient(top, #98bae7, #6e3cbc);
+  background-image: -o-linear-gradient(top, #98bae7, #6e3cbc);
+  background-image: linear-gradient(to bottom, #98bae7, #6e3cbc);
+  -webkit-border-radius: 13;
+  -moz-border-radius: 13;
+  font-family: "Montserrat", sans-serif;
+  border-radius: 13px;
+  color: #ffffff;
+  font-size: 16px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #b8e4f0;
+  background-image: -webkit-linear-gradient(top, #b8e4f0, #b8e4f0);
+  background-image: -moz-linear-gradient(top, #b8e4f0, #b8e4f0);
+  background-image: -ms-linear-gradient(top, #b8e4f0, #b8e4f0);
+  background-image: -o-linear-gradient(top, #b8e4f0, #b8e4f0);
+  background-image: linear-gradient(to bottom, #b8e4f0, #b8e4f0);
+  text-decoration: none;
+}
+
+.bottom-container {
+  background-color: #b8e4f0;
+  padding: 50px 0 20px;
+  color: white;
+}
+
