@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Space+Mono&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -7,7 +8,7 @@
 }
 
 body {
-  background-color: #1a1a40;
+  background-color: #111128;
   font-family: "Space Mono", monospace;
 }
 
@@ -26,6 +27,18 @@ header {
 
 header .logo {
   cursor: pointer;
+  font-family: "Cinzel Decorative", cursive;
+  font-size: 35px;
+  text-decoration: none;
+  color: white;
+  -webkit-transition: color 0.5s, background-color 0.2s, -webkit-transform 0.2s;
+  transition: color 0.5s, background-color 0.2s, -webkit-transform 0.2s;
+  transition: color 0.5s, transform 0.2s, background-color 0.2s;
+  transition: color 0.5s, transform 0.2s, background-color 0.2s, -webkit-transform 0.2s;
+}
+
+header .logo:hover {
+  color: #270082;
 }
 
 header nav {
@@ -45,8 +58,10 @@ header nav li {
 }
 
 header nav li a {
-  -webkit-transition: all 0.3s ease 0s;
-  transition: all 0.3s ease 0s;
+  -webkit-transition: color 0.5s, background-color 0.2s, -webkit-transform 0.2s;
+  transition: color 0.5s, background-color 0.2s, -webkit-transform 0.2s;
+  transition: color 0.5s, transform 0.2s, background-color 0.2s;
+  transition: color 0.5s, transform 0.2s, background-color 0.2s, -webkit-transform 0.2s;
 }
 
 header nav li a:hover {
@@ -54,20 +69,21 @@ header nav li a:hover {
 }
 
 header .resume_btn {
-  font-size: 16px;
+  font-size: 18px;
   color: white;
   text-decoration: none;
   padding: 9px 25px;
   background-color: transparent;
   border: 1px solid #270082;
-  border-radius: 2px;
   padding: 0.75rem 1rem;
   cursor: pointer;
-  -webkit-transition: all 0.3s ease 0s;
-  transition: all 0.3s ease 0s;
+  -webkit-transition: color 0.5s, background-color 0.2s, -webkit-transform 0.2s;
+  transition: color 0.5s, background-color 0.2s, -webkit-transform 0.2s;
+  transition: color 0.5s, transform 0.2s, background-color 0.2s;
+  transition: color 0.5s, transform 0.2s, background-color 0.2s, -webkit-transform 0.2s;
 }
 
 header .resume_btn:hover {
-  background-color: #270082;
+  color: #270082;
 }
 /*# sourceMappingURL=style.css.map */
