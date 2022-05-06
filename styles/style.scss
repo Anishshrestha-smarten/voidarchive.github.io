@@ -15,6 +15,8 @@ $text-color: white;
 body {
   background-color: $background-color;
   font-family: "Space Mono", monospace;
+
+
 }
 
 header {
@@ -31,7 +33,6 @@ header {
     color: white;
     // transition: all 0.3s ease 0s;
     transition: color 0.5s, transform 0.2s, background-color 0.2s;
-
 
     &:hover {
       color: $primary-color;
@@ -53,9 +54,8 @@ header {
 
       a {
         // transition: all 0.3s ease 0s;
-    transition: color 0.5s, transform 0.2s, background-color 0.2s;
-
-
+        transition: color 0.5s, transform 0.2s, background-color 0.2s;
+        
         &:hover {
           color: $primary-color;
         }
@@ -81,3 +81,39 @@ header {
   }
 }
 
+main {
+  padding: 0px 150px;
+
+  section{
+    margin: 0px auto;
+  }
+
+  #hero{
+    display: flex;
+    min-height: 100vh;
+    padding: 0;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+
+    .container{
+
+      h1{
+        margin: 0px 0px 30px 4px;
+        color: $primary-color;
+      }
+
+      h2{
+        color: $text-color;
+      }
+
+      h3{
+        color: $text-color;
+      }
+
+      h4{
+        color: $text-color;
+      }
+    }
+  }
+}

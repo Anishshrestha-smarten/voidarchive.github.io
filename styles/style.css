@@ -86,4 +86,47 @@ header .resume_btn {
 header .resume_btn:hover {
   color: #270082;
 }
+
+main {
+  padding: 0px 150px;
+}
+
+main section {
+  margin: 0px auto;
+}
+
+main #hero {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  min-height: 100vh;
+  padding: 0;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+main #hero .container h1 {
+  margin: 0px 0px 30px 4px;
+  color: #270082;
+}
+
+main #hero .container h2 {
+  color: white;
+}
+
+main #hero .container h3 {
+  color: white;
+}
+
+main #hero .container h4 {
+  color: white;
+}
 /*# sourceMappingURL=style.css.map */
