@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&display=swap");
 
 $background-color: #111128;
-$primary-color: #270082;
+$primary-color: #5223c1;
 $secondary-color: #7a0bc0;
 $text-color: white;
 
@@ -23,7 +23,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px 50px;
+  padding: 1.25rem 3.125rem;
 
   .logo {
     cursor: pointer;
@@ -40,17 +40,16 @@ header {
   }
 
   nav {
-    list-style-type: none;
     li,
     a {
-      font-size: 16px;
+      font-size: 1rem;
       color: white;
       text-decoration: none;
     }
 
     li {
       display: inline-block;
-      padding: 0 20px;
+      padding: 0 1.25rem;
 
       a {
         // transition: all 0.3s ease 0s;
@@ -64,29 +63,24 @@ header {
   }
 
   .resume_btn {
-    font-size: 18px;
+    font-size: 1rem;
     color: white;
     text-decoration: none;
 
-    padding: 9px 25px;
-    background-color: transparent;
-    border: 1px solid $primary-color;
+    border: 1px solid white;
     padding: 0.75rem 1rem;
     cursor: pointer;
-    transition: color 0.5s, transform 0.2s, background-color 0.2s;
+    transition: border 0.5s, color 0.5s, transform 0.2s, background-color 0.2s;
 
     &:hover {
       color: $primary-color;
+      border: 1px solid $primary-color;
     }
   }
 }
 
 main {
   padding: 0px 150px;
-
-  section{
-    margin: 0px auto;
-  }
 
   #hero{
     display: flex;
